@@ -1,0 +1,42 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.7s ease-in-out;
+  }
+  
+  .image .dots {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .image .dots .dot {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image .dots .dot.active {
+    opacity: 1;
+    background-color: #10e698cf; 
+  }
+  
+  

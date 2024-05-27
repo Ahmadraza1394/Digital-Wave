@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  display: block;
+  width: 5px;
+  height: 200px;  
+  background-color: transparent;
+}
+
+
+body::-webkit-scrollbar-thumb{
+background: #10e698cd;
+height: 130px;
+border-radius: 50px;
+}
+
+.App{
+  position: relative;
+}
+
+.App .line{
+  width: 80%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #04012491;
+}

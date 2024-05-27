@@ -1,0 +1,121 @@
+.dream{
+    width: 100%;
+    padding: 50px 25px;
+}
+
+.dream h2{
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #040124ec;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.dream .process{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dream .process .processes{
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dream .process .processes .bar{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border: 5px solid #10E698;
+}
+
+.dream .process .processes .bar .icon{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(2, 1, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dream .process .processes .bar .icon img{
+    width: 100px;
+}
+
+.dream .process .processes h5{
+    margin: 10px auto;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #040124c7;
+}
+
+@media (max-width: 768px){
+    
+    .dream{
+        padding: 50px 25px;
+    }
+    
+    .dream h2{
+        font-size: 2rem;
+    }
+    
+    .dream .process{
+        gap: 30px;
+    }
+    
+    .dream .process .processes{
+        padding: 15px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .dream .process .processes .bar{
+        position: relative;
+        width: 130px;
+        height: 130px;
+        border: 5px solid #10E698;
+    }
+    
+    .dream .process .processes .bar .icon{
+        position: absolute;
+        top: 7%;
+        left: 7%;
+        width: 130px;
+        height: 130px;
+        background-color: rgb(2, 1, 19);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dream .process .processes .bar .icon img{
+        width: 100px;
+    }
+    
+    .dream .process .processes h5{
+        margin: 10px auto;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #040124c7;
+    }   
+}
